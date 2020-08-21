@@ -1,9 +1,20 @@
 import React from 'react';
+import GlobalStyle from './global/style';
+
+import { HospitalContext } from './context/HospitalContext';
+
+// Components
+import SearchBar from './components/SearchBar';
+import HospitalList from './components/HospitalList';
 
 function App() {
   return (
-    <div>
-      <h1>Teste para o Escala</h1>
+    <div className="container">
+      <HospitalContext>
+        <SearchBar />
+        <HospitalList />
+        <GlobalStyle />
+      </HospitalContext>
     </div>
   );
 }
