@@ -59,9 +59,9 @@ export default createGlobalStyle`
 
   .container {
     margin: 0 15px;
-    padding: 0 15px;
-    margin: 40px auto 0;
-    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto 0;
+    max-width: 996px;
     width: 100%;
 
     display: flex;
